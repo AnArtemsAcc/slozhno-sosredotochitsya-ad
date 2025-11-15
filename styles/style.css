@@ -144,7 +144,7 @@
 /* Grid layout */
 .cards-grid {
   display: grid;
-  grid-template-columns: 33% 33% 34%;
+  grid-auto-flow: column;
   gap: 20px;
 }
 
