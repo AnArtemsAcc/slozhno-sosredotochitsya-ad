@@ -15,7 +15,6 @@
 .header {
   position: relative;
   min-height: 100vh;
-  min-height: 768px; /* Фиксированная высота для 1024x768 */
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -80,7 +79,7 @@
 .header__content {
   align-self: flex-end;
   max-width: 491px;
-  margin-bottom: 20px;
+  margin-bottom: 134px;
 }
 
 .header__subtitle {
@@ -196,7 +195,6 @@
 .footer {
   position: relative;
   min-height: 100vh;
-  min-height: 768px; /* Фиксированная высота для 1024x768 */
   display: flex;
   align-items: center;
   justify-content: center;
