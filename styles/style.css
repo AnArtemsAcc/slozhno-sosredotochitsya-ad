@@ -94,7 +94,7 @@
 
 /* Main sections */
 .main {
-  padding: 60px 20px;
+  padding: 60px 0px;
 }
 
 .section {
@@ -115,7 +115,7 @@
 
 /* Cards */
 .card {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .card__title {
