@@ -30,6 +30,7 @@
     --button-color: #FF0070;
     --card-bg: #000028;
     --decor-color: #FF0070;
+    --card-title-text-color: #000028;
   }
 }
 
@@ -42,6 +43,7 @@
   --button-color: #FF0070;
   --card-bg: #000028;
   --decor-color: #FF0070;
+  --card-title-text-color: #000028;
 }
 
 .theme-light {
@@ -53,4 +55,5 @@
   --button-color: #353430;
   --card-bg: #FFF1F7;
   --decor-color: #353430;
+  --card-title-text-color: #353430;
 }
