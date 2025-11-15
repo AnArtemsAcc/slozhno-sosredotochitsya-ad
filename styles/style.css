@@ -4,9 +4,11 @@
   font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: var(--line-height);
+
+  background-blend-mode: overlay;
   background-image: url('../images/cover-image.png');
-  background-size: cover;
   background-attachment: fixed;
+  background-size: cover;
   background-position: center;
 }
 
@@ -21,12 +23,13 @@
 }
 
 .header__theme-menu {
-  align-self: flex-end;
+  display:flex;
+  justify-content: center;
 }
 
 .header__theme-menu-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
 }
 
@@ -101,6 +104,12 @@
   color: var(--accent-color);
   font-size: var(--font-size);
   margin-bottom: 20px;
+}
+
+.vertical {
+  display: flex;
+  gap: 140px; 
+  align-items: flex-start;
 }
 
 /* Cards */
